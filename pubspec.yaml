@@ -59,12 +59,12 @@ flutter:
   fonts:
     - family: Anton
       fonts:
-        - asset: fonts/Anton-Regular.ttf
+        - asset: assets/fonts/Anton-Regular.ttf
 
     - family: Lato
       fonts:
-        - asset: fonts/Lato-regular.ttf
-        - asset: fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
           weight: 900
   #
   # For details regarding fonts from package dependencies,
