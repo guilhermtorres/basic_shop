@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop/src/views/home_views.dart';
+import 'package:shop/src/views/product_overview_views.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -7,9 +7,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Minha Loja',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
+        accentColor: Colors.deepOrange,
+        fontFamily: 'Lato',
       ),
-      home: MyHomePage(),
+      home: ProductOverviewViews(),
     );
   }
 }
